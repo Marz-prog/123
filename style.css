@@ -1,0 +1,113 @@
+
+
+  #speed {
+        background-color:rgb(202, 201, 221);
+        background-size: cover;
+        margin: 10px;
+        padding:5px;
+        width:1480px;
+        height:300px;
+}
+
+
+@media(min-width:600px){
+
+    body {
+          background-image: url('background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          margin: 10px;
+         }
+
+}
+
+@media(max-width:599px){
+
+  body {
+        background-color: aqua;
+        background-size: cover;
+        margin-left: 10px;
+       }
+      }
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container >div{
+          background-color: chocolate;
+          font-size:20px;
+          margin: 20px;
+          padding:20px;
+          width:200px;
+          height:100px;
+}
+
+
+h3 {
+  color: rgb(224, 30, 140);
+  text-align: center;
+  border:3px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#fff,#qqq {
+    color: navy;
+    text-align: center;
+    }
+    #baz {
+      color: red;
+      text-align: left;
+      }
+
+      .jjj{
+          background-color: rgb(224, 30, 140);
+          border:3px solid black;
+          padding: 5px;
+          text-align:justify;
+          
+      }
+  
+      ul>li {
+            color:rgb(0, 0, 255);
+  
+            }
+      
+tr,th{
+  text-align: center;
+  color: rgb(4, 2, 109);
+  border:2px solid black;
+  width:1500px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color:rgb(130, 130, 224);
+
+}
+
+ 
+tr,th:hover {background-color: white;}
+#fff:hover {background-color: #76dff2;}:hover {background-color: #d5edf1;}
+
+
+#grid{   
+  background-color:rgb(149, 149, 216);
+  display: grid;
+  padding: 10px;
+  grid-column-gap:20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 200px 200px auto;
+ }
+
+ .grid-item{ 
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+ }
